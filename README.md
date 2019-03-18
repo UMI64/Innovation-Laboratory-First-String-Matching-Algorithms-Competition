@@ -6,7 +6,7 @@
 ## 比赛规则
 1. 语言限定：c/c++。
 2. 不允许使用strstr库函数 。
-3. 比赛前会给出10个公开的[**关键词**(见代码)](https://github.com/UMI64/Innovation-Laboratory-First-String-Matching-Algorithms-Competition/blob/master/ConsoleApplication1/ConsoleApplication1.cpp)，**需要判断的字符串**会在比赛时给出，长度不定。参赛者需要实现一个函数，判断这公开的10个**关键词**是否存在在**需要判断的的字符串**中，例如**需要判断的字符串**为“afidaknhefaf”，**关键词**为“dak”,程序将会识别到**关键词**“dak”存在于**需要判断的字符串**中,最后将5个**关键词**判断的结果保存在一个bool [5]的全局数组中。
+3. 比赛前会给出10个公开的[**关键词**(见代码)](https://github.com/UMI64/Innovation-Laboratory-First-String-Matching-Algorithms-Competition/blob/master/ConsoleApplication1/ConsoleApplication1.cpp)，**需要判断的字符串**会在比赛时给出，长度不定。参赛者需要实现一个函数，判断这公开的10个**关键词**是否存在在**需要判断的的字符串**中，例如**需要判断的字符串**为“afidaknhefaf”，**关键词**为“dak”,程序将会识别到**关键词**“dak”存在于**需要判断的字符串**中,最后将5个**关键词**判断的结果保存在一个bool [10]的全局数组中。
 ## 评奖规则
 ###  算法评定标准：
   - 测试分为**时间测试**和**硬件测试**，时间测试时将使用同一台电脑测试代码运行时间，硬件测试也会使用同一片单片机进行。
